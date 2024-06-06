@@ -10,15 +10,15 @@ const Footer = () => {
   return (
     <Box
       as="footer"
-      bg="gray.900"
+      bg="gray.800"
       mt="40px"
       color="white"
       py="8"
       px="4"
       w="100%"
     >
-      <Flex justify="space-between" alignItems="center" flexWrap="wrap" >
-        <Flex direction="column" flex="1" mr="4">
+      <Flex  justifyContent="space-between" alignItems="center" flexWrap="wrap" >
+        <Flex direction="column" flex="1">
           <Text fontSize="lg" mb="2">
             Explore
           </Text>
@@ -33,7 +33,7 @@ const Footer = () => {
             Favorites
           </Link>
         </Flex>
-        <Flex direction="column" flex="1" mr="4">
+        <Flex direction="column" flex="1">
           <Text fontSize="lg" mb="2">
             Connect
           </Text>

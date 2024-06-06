@@ -37,7 +37,7 @@ const RootLayout = () => {
         bg="gray.800"
         minHeight={{sm: "40vh",lg: "100vh"}}
         p={{md: "15px",lg: "30px"}}
-        display={{ sm: "none", md: "none", lg: "block"}}
+        display={{base: "none", sm: "none", md: "none", lg: "block"}}
       >
        <Link to="/"> <Heading color="white">Gamer Galaxy</Heading></Link>
         {/* Platforms */}
