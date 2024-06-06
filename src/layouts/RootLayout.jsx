@@ -37,7 +37,7 @@ const RootLayout = () => {
         bg="gray.800"
         minHeight={{sm: "40vh",lg: "100vh"}}
         p={{md: "15px",lg: "30px"}}
-        display={{ sm: "none", md: "block", lg: "block"}}
+        display={{ sm: "none", md: "none", lg: "block"}}
       >
        <Link to="/"> <Heading color="white">Gamer Galaxy</Heading></Link>
         {/* Platforms */}
@@ -127,7 +127,7 @@ const RootLayout = () => {
       {/* Grid item 2 */}
       <GridItem
       as="main" 
-      p="10px 55px"
+      p="10px 10px"
       colSpan={{base: 6,md: 5, lg: 4,xl: 5}}
       >
         <Heading color="white" display={{sm: "block", lg: "none"}}>GamerGalaxy</Heading>
